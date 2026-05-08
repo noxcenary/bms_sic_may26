@@ -6,6 +6,7 @@ def binary_search(search_element,input_list):
         mid=int((low+high)/2)
         if input_list[mid] == search_element:
             return mid
+            break
         elif  input_list[mid]<search_element:
             low=mid+1
         else:
