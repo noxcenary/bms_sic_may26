@@ -9,6 +9,7 @@ print(f"Enter the {input_size} elements of the list ")
 for i in range(input_size):
     element=float(input())
     elements.append(element)
+return -1
 
 print("User given elements \n",elements)
 search_element=float(input("enter the element to be searched "))
