@@ -1,4 +1,4 @@
-def sequentilly_search(search_element,elements)
+def sequentilly_search(search_element,elements):
     for i in range(len(elements)):
         if elements[i]==search_element:
             return i
@@ -11,7 +11,7 @@ for i in range(input_size):
     elements.append(element)
 
 print("User given elements \n",elements)
-search_element=float(input("enter the element to be searched"))
+search_element=float(input("enter the element to be searched "))
 
 search_index=sequentilly_search(search_element,elements)
 
