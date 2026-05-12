@@ -1,5 +1,8 @@
 import quick_sort as qs
 import sys
+import pdb
+
+pdb.set_trace()
 
 numbers=[]
 
